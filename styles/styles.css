@@ -34,3 +34,35 @@ nav a {
 }
 
 /* End Navigation Section  */
+
+/* Work Section */
+
+#workpage {
+    text-align: center;
+}
+
+.my-work {
+    display: flex;
+    justify-content: center;
+}
+
+.card p {
+    font-size: 12px;
+}
+
+.card {
+    border: black 3px solid;
+    margin: 25px;
+}
+
+.card-img {
+    width: 125px;
+    height: 100px;
+}
+
+@media (max-width: 400px) {
+    .card-img {
+        width: 75px;
+        height: 125px;
+    }
+}
