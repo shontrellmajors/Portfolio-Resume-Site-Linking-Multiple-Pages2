@@ -1,9 +1,9 @@
 h1, h2, h3, h4, h5, h6 {
-    font-family: alegreya;
+    font-family: "Roboto Slab", serif;
 }
 
 body {
-    font-family: roboto slab;
+    font-family: "Roboto Slab", serif;
 }
 
 /* Navigation Section */
@@ -25,15 +25,35 @@ nav a {
     padding: 10px 10px;
 }
 
-#index-nav {
+nav {
     background-color: maroon;
 }
 
-#experience-nav {
-    background-color: mediumaquamarine;
+/* End Navigation Section  */
+
+/*Home Section */
+
+#homepage {
+    text-align: center;
 }
 
-/* End Navigation Section  */
+.home p {
+    text-align: center;
+    padding: 0px 125px;
+}
+
+#featured-projects ul {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    text-align: center;
+}
 
 /* Work Section */
 
